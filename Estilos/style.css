@@ -290,3 +290,58 @@ header .navbar {
 .menu-section .menu-list .menu-item .text {
     font-size: var(--font-size-m);
 }
+
+/* FeedBack Section Style */
+.testimonials-section {
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+
+.testimonials-section .slider-wrapper {
+    overflow: hidden;
+    margin: 0 60px 50px;
+}
+
+.testimonials-section .testimonial {
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-section .testimonial .user-image {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+
+.testimonials-section .testimonial .name {
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+}
+
+.testimonials-section .testimonial .feedback {
+    line-height: 25px;
+}
+
+.testimonials-section .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--secondary-color);
+}
+
+.testimonials-section .swiper-slide-button {
+    color: var(--secondary-color);
+    margin-top: -50px;
+    transition: 0.3s ease;
+}
+
+.testimonials-section .swiper-slide-button:hover {
+    color: var(--primary-color);
+}
