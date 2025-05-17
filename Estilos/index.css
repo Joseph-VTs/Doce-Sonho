@@ -291,17 +291,17 @@ header .NavBar {
 }
 
 /* Testemunhas Section Style */
-.Testemunhas-Section {
+.Testimonials-Section {
     padding: 50px 0 100px;
     background: var(--light-pink-color);
 }
 
-.Testemunhas-Section .Slider-Wrapper {
+.Testimonials-Section .Slider-Wrapper {
     overflow: hidden;
     margin: 0 60px 50px;
 }
 
-.Testemunhas-Section .Testemunha {
+.Testimonials-Section .Testimonial {
     user-select: none;
     padding: 35px;
     display: flex;
@@ -311,7 +311,7 @@ header .NavBar {
     text-align: center;
 }
 
-.Testemunhas-Section .Testemunha .User-img {
+.Testimonials-Section .Testimonial .User-img {
     width: 180px;
     height: 180px;
     margin-bottom: 50px;
@@ -319,28 +319,28 @@ header .NavBar {
     border-radius: var(--border-radius-circle);
 }
 
-.Testemunhas-Section .Testemunha .Name {
+.Testimonials-Section .Testimonial .Name {
     margin-bottom: 16px;
     font-size: var(--font-size-m);
 }
 
-.Testemunhas-Section .Testemunha .FeedBack {
+.Testimonials-Section .Testimonial .FeedBack {
     line-height: 25px;
 }
 
-.Testemunhas-Section .swiper-pagination-bullet {
+.Testimonials-Section .Swiper-Pagination-bullet {
     width: 15px;
     height: 15px;
     opacity: 1;
     background: var(--secondary-color);
 }
 
-.Testemunhas-Section .Swiper-Slide-Button {
+.Testimonials-Section .Swiper-Slide-Button {
     color: var(--secondary-color);
     margin-top: -50px;
     transition: 0.3s ease;
 }
 
-.Testemunhas-Section .Swiper-Slide-Button:hover {
+.Testimonials-Section .Swiper-Slide-Button:hover {
     color: var(--primary-color);
 }
