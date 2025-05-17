@@ -289,3 +289,58 @@ header .NavBar {
 .Menu-Section .Menu-List .Menu-Itens .Text {
     font-size: var(--font-size-m);
 }
+
+/* Testemunhas Section Style */
+.Testemunhas-Section {
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+
+.Testemunhas-Section .Slider-Wrapper {
+    overflow: hidden;
+    margin: 0 60px 50px;
+}
+
+.Testemunhas-Section .Testemunhas {
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Testemunhas-Section .Testemunhas .User-img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+
+.Testemunhas-Section .Testemunhas .Name {
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+}
+
+.Testemunhas-Section .Testemunhas .FeedBack {
+    line-height: 25px;
+}
+
+.Testemunhas-Section .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--secondary-color);
+}
+
+.Testemunhas-Section .Swiper-Slide-Button {
+    color: var(--secondary-color);
+    margin-top: -50px;
+    transition: 0.3s ease;
+}
+
+.Testemunhas-Section .Swiper-Slide-Button:hover {
+    color: var(--primary-color);
+}
