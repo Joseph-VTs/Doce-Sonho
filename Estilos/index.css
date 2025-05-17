@@ -301,7 +301,7 @@ header .NavBar {
     margin: 0 60px 50px;
 }
 
-.Testemunhas-Section .Testemunhas {
+.Testemunhas-Section .Testemunha {
     user-select: none;
     padding: 35px;
     display: flex;
@@ -311,7 +311,7 @@ header .NavBar {
     text-align: center;
 }
 
-.Testemunhas-Section .Testemunhas .User-img {
+.Testemunhas-Section .Testemunha .User-img {
     width: 180px;
     height: 180px;
     margin-bottom: 50px;
@@ -319,12 +319,12 @@ header .NavBar {
     border-radius: var(--border-radius-circle);
 }
 
-.Testemunhas-Section .Testemunhas .Name {
+.Testemunhas-Section .Testemunha .Name {
     margin-bottom: 16px;
     font-size: var(--font-size-m);
 }
 
-.Testemunhas-Section .Testemunhas .FeedBack {
+.Testemunhas-Section .Testemunha .FeedBack {
     line-height: 25px;
 }
 
